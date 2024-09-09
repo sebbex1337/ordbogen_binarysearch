@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "ordbogen",
+  "version": "1.0.0",
+  "description": "A deliberately slow server to deliver responses from the Danish Dictionary",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "watch": "node --watch main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Lind (petl@kea.dk)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
